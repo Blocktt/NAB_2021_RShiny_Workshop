@@ -1,0 +1,30 @@
+--- 
+title: "NAB RShiny Workshop"
+author: "Ben Block (Tetra Tech)"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This bookdown is made available to facilitate the virtual NAB RShiny Workshop
+  hosted on December 08, 2021.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# About
+
+This bookdown is intended to be a virtual hand-out that provides all the code necessary to participate in the NAB RShiny Workshop.
+
+## Usage 
+
+Each chapter represents a different lesson and corresponds to the workshop presentation provided by Ben Block. 
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```

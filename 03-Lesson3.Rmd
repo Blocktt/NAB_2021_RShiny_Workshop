@@ -1,0 +1,18 @@
+# Lesson 3
+
+```{r setup_lesson3, include=FALSE, cache=FALSE}
+knitr::read_chunk("RScripts/L03_Script01_PPSolution01.R")
+knitr::read_chunk("RScripts/L03_Script02_PPSolution02.R")
+```
+
+## Practice Problem #1
+### Solution
+```{r,L03_Script01_PPSolution01, eval=FALSE}
+
+```
+
+## Practice Problem #2
+### Solution
+```{r,L03_Script02_PPSolution02, eval=FALSE}
+
+```

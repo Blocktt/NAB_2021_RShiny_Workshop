@@ -1,0 +1,61 @@
+# Lesson 2
+
+```{r setup_lesson2, include=FALSE, cache=FALSE}
+knitr::read_chunk("RScripts/L02_Script01_Example1.R")
+knitr::read_chunk("RScripts/L02_Script02_Render.R")
+knitr::read_chunk("RScripts/L02_Script03_Reactive.R")
+knitr::read_chunk("RScripts/L02_Script04_Isolate.R")
+knitr::read_chunk("RScripts/L02_Script05_observeEvent.R")
+knitr::read_chunk("RScripts/L02_Script06_eventReactive.R")
+knitr::read_chunk("RScripts/L02_Script07_reactiveValues.R")
+knitr::read_chunk("RScripts/L02_Script08_PPSolution02.R")
+knitr::read_chunk("RScripts/L02_Script09_PPSolution03.R")
+```
+
+## Example #1
+```{r,L02_Script01_Example1, eval=FALSE}
+
+```
+
+
+## render*()
+```{r,L02_Script02_Render, eval=FALSE}
+
+```
+
+## reactive()
+```{r,L02_Script03_Reactive, eval=FALSE}
+
+```
+
+## isolate()
+```{r,L02_Script04_Isolate, eval=FALSE}
+
+```
+
+## observeEvent()
+```{r,L02_Script05_observeEvent, eval=FALSE}
+
+```
+
+## eventReactive()
+```{r, L02_Script06_eventReactive, eval=FALSE}
+
+```
+
+## reactiveValues()
+```{r, L02_Script07_reactiveValues, eval=FALSE}
+
+```
+
+## Practice Problem #2 
+### Solution
+```{r, L02_Script08_PPSolution02, eval=FALSE}
+
+```
+
+## Practice Problem #3
+### Solution
+```{r, L02_Script09_PPSolution03, eval=FALSE}
+
+```
