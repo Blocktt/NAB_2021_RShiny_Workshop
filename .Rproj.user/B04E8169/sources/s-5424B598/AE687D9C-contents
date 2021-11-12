@@ -1,6 +1,5 @@
 # Lesson 2
 
-How to customize reactions
 ```{r setup_lesson2, include=FALSE, cache=FALSE}
 knitr::read_chunk("RScripts/L02_Script01_Example1.R")
 knitr::read_chunk("RScripts/L02_Script02_Render.R")

@@ -1,6 +1,5 @@
 # Lesson 3
 
-How to customize appearance
 ```{r setup_lesson3, include=FALSE, cache=FALSE}
 knitr::read_chunk("RScripts/L03_Script01_PPSolution01.R")
 knitr::read_chunk("RScripts/L03_Script02_PPSolution02.R")

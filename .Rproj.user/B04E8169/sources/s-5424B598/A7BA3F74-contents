@@ -1,6 +1,5 @@
 # Lesson 1
 
-How to build an RShiny app!
 ```{r setup_lesson1, include=FALSE, cache=FALSE}
 knitr::read_chunk("RScripts/L01_Script01_MyFirstApp.R")
 knitr::read_chunk("RScripts/L01_Script02_InputExample.R")
