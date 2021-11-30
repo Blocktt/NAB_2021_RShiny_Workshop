@@ -20,7 +20,7 @@ github-repo: rstudio/bookdown-demo
 ![](www/Logos.png){width=50%}
 </center>
 
-Greetings! This book is intended to be a virtual hand-out that provides all the code necessary to participate in the Northeast Aquatic Biologists (NAB) RShiny Workshop scheduled for December 08, 2021. I hope you find this format simple and helpful as you follow along during the workshop. The GitHub repository that contains the underlying code as well as copies of the PowerPoint presentations used during the workshop can be found [here]([https://github.com/Blocktt/NAB_2021_RShiny_Workshop)!
+Greetings! This book is intended to be a virtual hand-out that provides all the code necessary to participate in the Northeast Aquatic Biologists (NAB) RShiny Workshop scheduled for December 08, 2021. I hope you find this format simple and helpful as you follow along during the workshop. The GitHub repository that contains the underlying code as well as copies of the PowerPoint presentations used during the workshop can be found here: https://github.com/Blocktt/NAB_2021_RShiny_Workshop
 
 Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions. This workshop will cover the fundamentals wherein you will build a solid theoretical and practical foundation from which you can build ever better apps!
 
