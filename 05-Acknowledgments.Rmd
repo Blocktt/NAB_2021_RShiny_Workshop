@@ -1,5 +1,5 @@
 # Acknowledgments
 
-We would like to thank the collaborative staff who worked on producing the content for this workshop including Ben Block, Erik Leppo, and Ben Jessup from Tetra Tech and Maryann Dugan from NEIWPCC. 
+We would like to thank the collaborative staff who worked on producing the content for this workshop including Ben Block, Erik W. Leppo, and Ben Jessup from Tetra Tech and Maryann Dugan from NEIWPCC. 
 
 This project has been funded wholly or in part by the United States Environmental Protection Agency under assistance agreement (I00199120-106) to NEIWPCC. The contents of this document do not necessarily reflect the views and policies of NEIWPCC or the EPA, nor does NEIWPCC or the EPA endorse trade names or recommend the use of commercial products mentioned in this document.

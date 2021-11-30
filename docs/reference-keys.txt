@@ -28,4 +28,10 @@ practice-problem-1-1
 solution-4
 practice-problem-2-2
 solution-5
+lesson-4
+how-to-share-your-apps
+shared-as-r-scripts
+shared-via-github
+share-as-a-web-page
+additional-resources
 acknowledgments

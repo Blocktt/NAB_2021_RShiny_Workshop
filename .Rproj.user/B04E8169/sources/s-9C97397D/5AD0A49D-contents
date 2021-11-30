@@ -1,0 +1,46 @@
+# Lesson 4
+
+## How to share your apps
+```{r, include=FALSE}
+knitr::opts_chunk$set(eval = FALSE)
+```
+
+Shiny apps are shared most oftenly through one of three methods:
+
+* Shared as R script(s)
+* Shared via GitHub
+* Share as a web page
+
+### Shared as R script(s)
+Anyone with R can run your Shiny app. They will need a copy of your app.R file, as well as any supplementary materials used in your app (e.g., www folders or helpers.R files). To send your files to another user, email the files (perhaps in a zip file) or host the files online. Your user can place the files into an app directory in their working directory. They can launch the app in R with the same commands you used on your computer.
+```{r}
+# install.packages("shiny")
+library(shiny)
+runApp("my-app")
+```
+
+
+### Shared via GitHub
+If you don’t have your own web page to host the files at, you can host your the files for free at [GitHub](www.github.com). GitHub is a popular project hosting site for R developers. To use GitHub, you’ll need to sign up (it’s free) and choose a user name.To share an app through GitHub, create a project repository on GitHub. Then store your app.R file in the repository, along with any supplementary files that the app uses.
+
+Your users can launch your app by running:
+```{r}
+runGitHub( "<your repository name>", "<your user name>")
+```
+
+
+### Share as a web page
+All of the above methods require your user to have R and Shiny installed on their computer. However, Shiny creates the perfect opportunity to share output with people who do not have R (and have no intention of getting it). You can host the app at its own URL and users can visit the app (and not need to worry about the code that generates it). If you are familiar with web hosting or have access to an IT department, you can host your Shiny apps yourself. If you’d prefer an easier experience or need support, RStudio offers three ways to host your Shiny app as a web page:
+
+* [shinyapps.io](shinyapps.io)
+* [Shiny Server](https://www.rstudio.com/products/shiny/shiny-server)
+* [RStudio Connect](https://www.rstudio.com/products/connect)
+
+### Additional Resources:
+
+* [R Shiny Sharing Lesson](https://shiny.rstudio.com/tutorial/written-tutorial/lesson7/)
+* [Get started with shinyapps.io](shiny.rstudio.com/articles/shinyapps.html)
+* Building Shiny apps into packages
+   + [Mastering Shiny book chapter](https://mastering-shiny.org/scaling-packaging.html)
+   + [R Packages book](https://r-pkgs.org/)
+   + [Engineering Production-Grade Shiny Apps book](https://engineering-shiny.org/)

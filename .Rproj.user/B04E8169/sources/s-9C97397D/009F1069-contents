@@ -49,15 +49,15 @@ This book is separated by individual lessons which correspond to the workshop di
 ## Preparation for the workshop
 We expect workshop attendees to be familiar with R and have both R and RStudio downloaded to their computers prior to the beginning of the workshop. R and RStudio are absolutely necessary for participation.
 
-Also, there are three packages that you will need to make surer you have downloaded prior to the workshop. Please follow these instructions:
+Also, there are three packages that you will need to make sure you have downloaded prior to the workshop. Please follow these instructions:
 
 1. Open RStudio
 2. Copy and execute the following code:
     + Note, installation of new packages may take some time.
 ```{r packages, eval=FALSE}
-package.vec <- c("shiny", "bslib", "thematic")
+package_vec <- c("shiny", "bslib", "thematic")
 
-install.packages(package.vec)
+install.packages(package_vec)
 ```
 
 ## Resources

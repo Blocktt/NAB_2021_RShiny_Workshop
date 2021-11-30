@@ -4,12 +4,12 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>NAB RShiny Workshop</title>
+  <title> 5 Lesson 4 | NAB RShiny Workshop</title>
   <meta name="description" content="<p>This bookdown is made available to facilitate the virtual NAB RShiny Workshop
 hosted on December 08, 2021.</p>" />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="NAB RShiny Workshop" />
+  <meta property="og:title" content=" 5 Lesson 4 | NAB RShiny Workshop" />
   <meta property="og:type" content="book" />
   
   
@@ -18,7 +18,7 @@ hosted on December 08, 2021.</p>" />
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="NAB RShiny Workshop" />
+  <meta name="twitter:title" content=" 5 Lesson 4 | NAB RShiny Workshop" />
   
   <meta name="twitter:description" content="<p>This bookdown is made available to facilitate the virtual NAB RShiny Workshop
 hosted on December 08, 2021.</p>" />
@@ -34,8 +34,8 @@ hosted on December 08, 2021.</p>" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-
-<link rel="next" href="lesson-1.html"/>
+<link rel="prev" href="lesson-3.html"/>
+<link rel="next" href="acknowledgments.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -221,82 +221,52 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">NAB RShiny Workshop</h1>
-<p class="author"><em>Ben Block (Tetra Tech)</em></p>
-<p class="date"><em>2021-11-30</em></p>
-</div>
-<div id="overview" class="section level1" number="1">
-<h1><span class="header-section-number"> 1</span> Overview</h1>
-<center>
-<img src="www/Logos.png" style="width:50.0%" />
-</center>
-<p>Greetings! This book is intended to be a virtual hand-out that provides all the code necessary to participate in the Northeast Aquatic Biologists (NAB) RShiny Workshop scheduled for December 08, 2021. I hope you find this format simple and helpful as you follow along during the workshop. The GitHub repository that contains the underlying code as well as copies of the PowerPoint presentations used during the workshop can be found <a href="%5Bhttps://github.com/Blocktt/NAB_2021_RShiny_Workshop">here</a>!</p>
-<p>Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions. This workshop will cover the fundamentals wherein you will build a solid theoretical and practical foundation from which you can build ever better apps!</p>
-<div id="workshop-format" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Workshop Format</h2>
-<p>This book is separated by individual lessons which correspond to the workshop discussions we will be having. Here are the four lessons:</p>
+<div id="lesson-4" class="section level1" number="5">
+<h1><span class="header-section-number"> 5</span> Lesson 4</h1>
+<div id="how-to-share-your-apps" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> How to share your apps</h2>
+<p>Shiny apps are shared most oftenly through one of three methods:</p>
 <ul>
-<li>Lesson 1: <strong>How to build a Shiny app</strong>. In this lesson, we discuss the basics of RShiny including the development of the server and user interface (UI).</li>
-<li>Lesson 2: <strong>How to customize reactions</strong>. Reactivity is the essence of RShiny and must be understood to create responsive Shiny apps.</li>
-<li>Lesson 3: <strong>How to customize appearance</strong>. Defaults work for a while but sometimes you may want to zhoosh up an app and make the UI more appealing.</li>
-<li>Lesson 4: <strong>Share your apps</strong>.Note, no code is provided for this lesson, but the lesson focuses on how to share your apps with colleagues, collaborators, and the public.</li>
+<li>Shared as R script(s)</li>
+<li>Shared via GitHub</li>
+<li>Share as a web page</li>
+</ul>
+<div id="shared-as-r-scripts" class="section level3" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> Shared as R script(s)</h3>
+<p>Anyone with R can run your Shiny app. They will need a copy of your app.R file, as well as any supplementary materials used in your app (e.g., www folders or helpers.R files). To send your files to another user, email the files (perhaps in a zip file) or host the files online. Your user can place the files into an app directory in their working directory. They can launch the app in R with the same commands you used on your computer.</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="lesson-4.html#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;shiny&quot;)</span></span>
+<span id="cb18-2"><a href="lesson-4.html#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(shiny)</span>
+<span id="cb18-3"><a href="lesson-4.html#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="fu">runApp</span>(<span class="st">&quot;my-app&quot;</span>)</span></code></pre></div>
+</div>
+<div id="shared-via-github" class="section level3" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> Shared via GitHub</h3>
+<p>If you don’t have your own web page to host the files at, you can host your the files for free at <a href="www.github.com">GitHub</a>. GitHub is a popular project hosting site for R developers. To use GitHub, you’ll need to sign up (it’s free) and choose a user name.To share an app through GitHub, create a project repository on GitHub. Then store your app.R file in the repository, along with any supplementary files that the app uses.</p>
+<p>Your users can launch your app by running:</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="lesson-4.html#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">runGitHub</span>( <span class="st">&quot;&lt;your repository name&gt;&quot;</span>, <span class="st">&quot;&lt;your user name&gt;&quot;</span>)</span></code></pre></div>
+</div>
+<div id="share-as-a-web-page" class="section level3" number="5.1.3">
+<h3><span class="header-section-number">5.1.3</span> Share as a web page</h3>
+<p>All of the above methods require your user to have R and Shiny installed on their computer. However, Shiny creates the perfect opportunity to share output with people who do not have R (and have no intention of getting it). You can host the app at its own URL and users can visit the app (and not need to worry about the code that generates it). If you are familiar with web hosting or have access to an IT department, you can host your Shiny apps yourself. If you’d prefer an easier experience or need support, RStudio offers three ways to host your Shiny app as a web page:</p>
+<ul>
+<li><a href="shinyapps.io">shinyapps.io</a></li>
+<li><a href="https://www.rstudio.com/products/shiny/shiny-server">Shiny Server</a></li>
+<li><a href="https://www.rstudio.com/products/connect">RStudio Connect</a></li>
 </ul>
 </div>
-<div id="agenda" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Agenda</h2>
-<p>8:00 AM - 4:00 PM DECEMBER 08, 2021</p>
+<div id="additional-resources" class="section level3" number="5.1.4">
+<h3><span class="header-section-number">5.1.4</span> Additional Resources:</h3>
 <ul>
-<li>8:00 – 8:30 AM Introduction and Demo</li>
-<li>8:30 – 10:00 AM Lesson 1: How to build a shiny app</li>
-<li><strong>10:00 – 10:15 AM Break</strong></li>
-<li>10:15 AM – 12:00 PM Lesson 2: How to customize reactions</li>
-<li><strong>12:00 – 1:00 PM Lunch Break</strong></li>
-<li>1:00 – 2:30 PM Lesson 3: How to customize appearance</li>
-<li>2:30 – 2:45 PM Lesson 4: Share your apps</li>
-<li>2:45 – 3:00 PM Conclusions</li>
-<li>3:00 – 4:00 PM Optional: Q&amp;A and roundtable discussion</li>
-</ul>
-</div>
-<div id="preparation-for-the-workshop" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Preparation for the workshop</h2>
-<p>We expect workshop attendees to be familiar with R and have both R and RStudio downloaded to their computers prior to the beginning of the workshop. R and RStudio are absolutely necessary for participation.</p>
-<p>Also, there are three packages that you will need to make sure you have downloaded prior to the workshop. Please follow these instructions:</p>
-<ol style="list-style-type: decimal">
-<li>Open RStudio</li>
-<li>Copy and execute the following code:
+<li><a href="https://shiny.rstudio.com/tutorial/written-tutorial/lesson7/">R Shiny Sharing Lesson</a></li>
+<li><a href="shiny.rstudio.com/articles/shinyapps.html">Get started with shinyapps.io</a></li>
+<li>Building Shiny apps into packages
 <ul>
-<li>Note, installation of new packages may take some time.</li>
-</ul></li>
-</ol>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="index.html#cb1-1" aria-hidden="true" tabindex="-1"></a>package_vec <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;shiny&quot;</span>, <span class="st">&quot;bslib&quot;</span>, <span class="st">&quot;thematic&quot;</span>)</span>
-<span id="cb1-2"><a href="index.html#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="index.html#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(package_vec)</span></code></pre></div>
-</div>
-<div id="resources" class="section level2" number="1.4">
-<h2><span class="header-section-number">1.4</span> Resources</h2>
-<p>The majority of the workshop content was adapted from content published by RStudio creators. These include the following resources:</p>
-<ul>
-<li>RStudio’s RShiny tutorial
-<ul>
-<li><strong>Garrett Grolemund, 2015</strong></li>
-<li>Licensed under a <a href="https://creativecommons.org/licenses/by-nc/3.0/us/">Creative Commons License</a></li>
-</ul></li>
-<li>Mastering Shiny
-<ul>
-<li><strong>Hadley Wickham, 2020</strong></li>
-<li>Licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons License</a></li>
-</ul></li>
-<li>Other useful resources
-<ul>
-<li><a href="https://shiny.rstudio.com/tutorial/" class="uri">https://shiny.rstudio.com/tutorial/</a></li>
-<li><a href="https://shiny.rstudio.com/gallery/" class="uri">https://shiny.rstudio.com/gallery/</a></li>
-<li><a href="https://shiny.rstudio.com/images/shiny-cheatsheet.pdf" class="uri">https://shiny.rstudio.com/images/shiny-cheatsheet.pdf</a></li>
-<li><a href="https://stackoverflow.com/questions/tagged/shiny" class="uri">https://stackoverflow.com/questions/tagged/shiny</a></li>
-<li><a href="https://datacamp.com/" class="uri">https://datacamp.com/</a></li>
+<li><a href="https://mastering-shiny.org/scaling-packaging.html">Mastering Shiny book chapter</a></li>
+<li><a href="https://r-pkgs.org/">R Packages book</a></li>
+<li><a href="https://engineering-shiny.org/">Engineering Production-Grade Shiny Apps book</a></li>
 </ul></li>
 </ul>
 
+</div>
 </div>
 </div>
             </section>
@@ -304,8 +274,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-
-<a href="lesson-1.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="lesson-3.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="acknowledgments.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -336,7 +306,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/index.Rmd",
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/04-Lesson4.Rmd",
 "text": "Edit"
 },
 "history": {
