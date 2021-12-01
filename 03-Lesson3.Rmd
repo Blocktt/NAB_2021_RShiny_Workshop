@@ -2,18 +2,25 @@
 
 How to customize appearance
 ```{r setup_lesson3, include=FALSE, cache=FALSE}
-knitr::read_chunk("RScripts/L03_Script01_PPSolution01.R")
-knitr::read_chunk("RScripts/L03_Script02_PPSolution02.R")
+knitr::read_chunk("RScripts/L03_Script01_PPQuestion01.R")
+knitr::read_chunk("RScripts/L03_Script02_PPSolution01.R")
+knitr::read_chunk("RScripts/L03_Script03_PPSolution02.R")
 ```
 
 ## Practice Problem #1
+### Question
+```{r,L03_Script01_PPQuestion01, eval=FALSE}
+
+```
+
+
 ### Solution
-```{r,L03_Script01_PPSolution01, eval=FALSE}
+```{r,L03_Script02_PPSolution01, eval=FALSE}
 
 ```
 
 ## Practice Problem #2
 ### Solution
-```{r,L03_Script02_PPSolution02, eval=FALSE}
+```{r,L03_Script03_PPSolution02, eval=FALSE}
 
 ```

@@ -9,8 +9,11 @@ knitr::read_chunk("RScripts/L02_Script04_Isolate.R")
 knitr::read_chunk("RScripts/L02_Script05_observeEvent.R")
 knitr::read_chunk("RScripts/L02_Script06_eventReactive.R")
 knitr::read_chunk("RScripts/L02_Script07_reactiveValues.R")
-knitr::read_chunk("RScripts/L02_Script08_PPSolution02.R")
-knitr::read_chunk("RScripts/L02_Script09_PPSolution03.R")
+knitr::read_chunk("RScripts/L02_Script08_PPQuestion01.R")
+knitr::read_chunk("RScripts/L02_Script09_PPQuestion02.R")
+knitr::read_chunk("RScripts/L02_Script10_PPSolution02.R")
+knitr::read_chunk("RScripts/L02_Script11_PPQuestion03.R")
+knitr::read_chunk("RScripts/L02_Script12_PPSolution03.R")
 ```
 
 ## Example #1
@@ -49,14 +52,31 @@ knitr::read_chunk("RScripts/L02_Script09_PPSolution03.R")
 
 ```
 
-## Practice Problem #2 
+## Practice Problem #1
+### Question
+```{r, L02_Script08_PPQuestion01, eval=FALSE}
+
+```
+
+
+## Practice Problem #2
+### Question
+```{r, L02_Script09_PPQuestion02, eval=FALSE}
+
+```
+
 ### Solution
-```{r, L02_Script08_PPSolution02, eval=FALSE}
+```{r, L02_Script10_PPSolution02, eval=FALSE}
 
 ```
 
 ## Practice Problem #3
+### Question
+```{r, L02_Script11_PPQuestion03, eval=FALSE}
+
+```
+
 ### Solution
-```{r, L02_Script09_PPSolution03, eval=FALSE}
+```{r, L02_Script12_PPSolution03, eval=FALSE}
 
 ```

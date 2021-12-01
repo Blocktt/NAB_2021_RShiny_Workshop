@@ -9,6 +9,8 @@ ui <- fluidPage(
   plotOutput("hist"),
   verbatimTextOutput("stats")
 )
+
+# before reactive call
 server <- function(input, output) {
   output$hist <- renderPlot({
     hist(rnorm(input$num))
@@ -17,4 +19,18 @@ server <- function(input, output) {
     summary(rnorm(input$num))
   })
 }
+
+# after reactive call
+server <- function(input, output) {
+  data <- reactive({
+    rnorm(input$num)
+  })
+  output$hist <- renderPlot({
+    hist(data())
+  })
+  output$stats <- renderPrint({
+    summary(data())
+  })
+}
+
 shinyApp(ui = ui, server = server)

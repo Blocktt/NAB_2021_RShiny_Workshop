@@ -9,7 +9,7 @@ ui <- fluidPage(
 )
 server <- function(input, output, session) {
   output$hist <- renderPlot({
-    hist(rnorm(input$num))
+    hist(rnorm(100))
   })
 }
 shinyApp(ui, server)
